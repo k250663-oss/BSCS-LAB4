@@ -64,6 +64,10 @@ scanf("%d", &amount);
     }
     total = total + crust;
     printf("new total:%.2f",total);
+
+    if (amount == 3 && crust == 2) {
+    printf("\nYou get free garlic bread!");
+    }
    
     printf("\n\ncheese (y/n):");
     scanf("%s",cheese );
@@ -99,3 +103,4 @@ scanf("%d", &amount);
 total = total + del;
     printf("\n\nfinal total is %.2f",total);
 }
+
